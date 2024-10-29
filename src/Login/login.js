@@ -1,8 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/js/bootstrap.bundle.min.js"
 
 export function Login() {
     return (
-        <div>
+        <>
             <form>
                 <div className="mb-3">
                     <label htmlFor="exampleInputEmail1" className="form-label">
@@ -38,6 +39,6 @@ export function Login() {
                     Submit
                 </button>
             </form>
-        </div>
+        </>
     )
 }
